@@ -87,6 +87,6 @@ public class GoogleCalendarSteps {
 	public void screenShot(Scenario scenario) throws Throwable {
 
 		if (scenario.isFailed())
-			cfl.getScreenshot(System.getProperty("user.dir")+"/screenshot");
+			cfl.getScreenshot(System.getProperty("user.dir")+"/screenshots");
 	}
 }
