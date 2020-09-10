@@ -4,12 +4,10 @@ Running on different browser
 
 Running Cucumber tests from CLI
 1) Navigate to Project Dir containing POM.xml
-2) run mvn clean test -Dcucumber.options="src/main/java/features --tags @ui" for Assignment 1
+2) run mvn clean test -Dcucumber.options="src/main/java/features --tags @ui" for UI Tests
 3) mvn clean test -Dcucumber.options="src/main/java/features --tags @api"
 
-Running Mocktest
-1) Navigate to src/test/java/mocktest
-2) Right click and run as Junit Test
+
 
 
 For question and answers, refer to Answers.txt
